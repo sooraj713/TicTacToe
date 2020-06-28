@@ -1,0 +1,43 @@
+*{ 
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+ }
+ h1{
+ 	color: green;
+ 	text-decoration: none;
+ }
+td{
+  width: 100px;
+  height:100px;
+  border:5px solid white;
+  text-align: center;
+  font-size: 50px;
+  background-color: #1105c4;
+  color: white;
+}
+body{
+	background-color:#93939373;
+}
+
+img{
+	border:10px solid red;
+}
+
+.space{
+
+	margin-left: 30px;
+}
+
+.footer{
+	height: 25%;
+	width: 100%;
+	background-color: pink;
+}
+
+.container-fluid{
+	border:20px solid red;
+	background-color: cyan;
+	margin-top: -80px;
+	padding: 0px;
+}

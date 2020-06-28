@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="game.css">
+    <embed src="game.mp3" loop="true" autostart="true" width="2" height="0">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>Welcome to tic tac toe game</h1 >
+        <p>Lets play game !</p>
+        <button id='b1' type="button" class="btn btn-primary" name="button">Start New Game!</button>
+        <button onclick="start()" type="button" class="btn btn-primary" name="button1">Play Music</button>
+        <button id='b' type="button" class="btn btn-primary" name="button">Lets Continue !</button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xs-2">
+          <img src="player1.png" id="p1" class="img-fluid space">
+          <center><h1 id="player1">X</h1></center>
+        </div>
+        <table class="col-md-4 col-xs-2">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="col-md-4 col-xs-2">
+          <img src="player1.png" id="p2" class="img-fluid space">
+          <center><h1 id="player2">O</h1></center>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
+<script src="game.js" charset="utf-8"></script>
